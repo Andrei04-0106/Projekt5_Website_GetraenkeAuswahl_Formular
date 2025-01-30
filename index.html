@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>DrinkTopia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header">
+      <div id="navigation">
+        <ul>
+          <li id="about-us-div"><a href="about-us.html">Über uns</a></li>
+          <li><a href="#navProdukte">Produkte</a></li>
+          <li><a href="Kontakt.html">Kontakt</a></li>
+          <li><a href="Impressum.html">Impressum</a></li>
+        </ul>
+      </div>
+      <div id="logo"><img src="Bilder/Logo.jpg"></div>
+    </div>
+    <div id="main-content">
+
+      <div id="introduction-content">
+        
+        <p>
+          Wir freuen uns, dass du bei uns bist! 🥂 Egal, ob du eine große Feier
+          planst oder einfach deinen Durst stillen möchtest – wir haben die
+          passende Auswahl für dich.
+          <div class="picture-div">
+            <img src="Bilder/bild6.jpg">
+            <img src="Bilder/bild7.jpg.webp">
+            <img src="Bilder/bild8.jpg.webp">
+            <img src="Bilder/bild9.jpg.webp">
+            <img src="Bilder/bild10.jpg.webp">
+          </div>
+        </p>
+        <h3>Wie funktioniert´s?</h3>
+       <p>Ganz einfach:<br>Wähle aus unserem Angebot deine Lieblingsgetränke aus und gib deine Bestellung in wenigen Schritten auf. Unser Ziel ist es, dir den besten Service zu bieten – bequem, schnell und zuverlässig.</p>
+       <img src="Bilder/bild5.jpg" class="anderBilder">
+       <h3>Warum bei uns bestellen?</h3>
+       <p>
+        ✔️ Große Auswahl an hochwertigen Getränken<br>
+        ✔️ Einfache und intuitive Bestellung<br>
+        ✔️ Perfekt für jeden Anlass – ob privat oder geschäftlich</p>
+        <img src="Bilder/bild1.jpg.avif" class="anderBilder">
+        <p>Los geht’s!
+          Jetzt bist du dran – fülle einfach das Formular aus und lass uns wissen, was du brauchst. Wir kümmern uns um den Rest und sorgen dafür, dass deine Bestellung pünktlich bei dir ankommt. 🍹</p>
+      </div>
+
+        <h2>Bitte folgende Angaben Vollständig ausfüllen.</h2>
+        <div id="formContent">
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required placeholder="Name"/>
+            <label for="age">Alter:</label>
+            <input type="number" id="age" min="18" required placeholder="mindest 18 Jahre alt!"/>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" required placeholder="example@email.com"/>
+            <label for="telNumber">Tel:</label>
+            <input type="text" id="telNumber" required placeholder="01761231"/>
+            <label for="gender">Geschlecht:</label>
+            <select id="gender" required>
+              <option value="" disabled selected>Bitte auswählen</option>
+              <option value="male">Männlich</option>
+              <option value="female">Weiblich</option>
+              <option value="other">Divers</option>
+            </select>
+          </form>
+        </div>
+        <h3 id="navProdukte">Wähle deine Lieblingsgetränke aus:</h3>
+        <div id="drinksContent">
+          
+          <fieldset class="fieldsetSoftdrinks">
+            <p class="title-fieldset">Softdrinks<img src="Bilder/Drinks.jpg.png" id="pic-drinks"></p>
+            <div class="drinksContainer">
+            <input type="checkbox" id="Cola-Zero" data-price="1.50" class="checkBox">
+            <label for="Cola-Zero">Cola Zero (€1,50)</label>
+            <input type="number" id="menge-Cola-Zero" min="1" max="20" placeholder="Menge">
+          </div>
+          <div class="drinksContainer">
+            <input type="checkbox" id="Cola" data-price="1.50" class="checkBox">
+            <label for="Cola">Cola (€1,50)</label>
+            <input type="number" id="menge-Cola" min="1" max="20" placeholder="Menge">
+          </div>
+          <div class="drinksContainer">
+            <input type="checkbox" id="Sprite" data-price="1.70" class="checkBox">
+            <label for="Sprite">Sprite (€1,70)</label>
+            <input type="number" id="menge-Sprite" min="1" max="20" placeholder="Menge">
+          </div>
+          <div class="drinksContainer">
+            <input type="checkbox" id="Sprite-Zero" data-price="1.70" class="checkBox">
+            <label for="Sprite-Zero">Sprite Zero(€1,70)</label>
+            <input type="number" id="menge-Sprite-Zero" min="1" max="20" placeholder="Menge">
+          </div>
+          <div class="drinksContainer">
+            <input type="checkbox" id="Fanta" data-price="1.40" class="checkBox">
+            <label for="Fanta">Fanta(€1,40)</label>
+            <input type="number" id="menge-Fanta" min="1" max="20" placeholder="Menge">
+          </div>
+          <div class="drinksContainer">
+            <input type="checkbox" id="Fanta-Zero" data-price="1.40" class="checkBox">
+            <label for="Fanta-Zero">Fanta Zero(€1,40)</label>
+            <input type="number" id="menge-Fanta-Zero" min="1" max="20" placeholder="Menge">
+          </div>
+          <div class="drinksContainer">
+            <input type="checkbox" id="Pepsi" data-price="1.60" class="checkBox">
+            <label for="Pepsi">Pepsi(€1,60)</label>
+            <input type="number" id="menge-Pepsi" min="1" max="20" placeholder="Menge">
+          </div>
+          <div class="drinksContainer">
+            <input type="checkbox" id="Pepsi-Zero" data-price="1.70" class="checkBox">
+            <label for="Pepsi-Zero">Pepsi Zero(€1,70)</label>
+            <input type="number" id="menge-Pepsi-Zero" min="1" max="20" placeholder="Menge">
+          </div>
+          <div class="drinksContainer">
+            <input type="checkbox" id="7up" data-price="1.80" class="checkBox">
+            <label for="7up">7up(€1,80)</label>
+            <input type="number" id="menge-7up" min="1" max="20" placeholder="Menge">
+          </div>
+          <div class="drinksContainer">
+            <input type="checkbox" id="RedBull" data-price="2.1" class="checkBox">
+            <label for="RedBull">Red Bull(€2,10)</label>
+            <input type="number" id="menge-RedBull" min="1" max="20" placeholder="Menge">
+          </div>
+          <div class="drinksContainer">
+            <input type="checkbox" id="RedBull-Zero" data-price="2.10" class="checkBox">
+            <label for="RedBull-Zero">Red Bull Zero(€2,10)</label>
+            <input type="number" id="menge-RedBull-Zero" min="1" max="20" placeholder="Menge">
+          </div>
+          </fieldset>
+         
+          <fieldset class="fieldsetWasser">
+            <p class="title-fieldset">Wasser<img src="Bilder/Water.png" id="pic-water"></p>
+            <div class="wasserContainer">
+            <input type="checkbox" id="Wasser" data-price="1.0">
+            <label for="Wasser">Stilles-Wasser(€1,00)</label>
+            <input type="number" id="menge-Wasser" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="wasserContainer">
+            <input type="checkbox" id="Sprudel-Wasser" data-price="1.0">
+            <label for="Sprudel-Wasser">Sprudel-Wasser(€1,00)</label>
+            <input type="number" id="menge-Sprudel-Wasser" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="wasserContainer">
+            <input type="checkbox" id="Mineral-Wasser" data-price="1.0">
+            <label for="Mineral-Wasser">Mineral-Wasser(€1,00)</label>
+            <input type="number" id="menge-Mineral-Wasser" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="wasserContainer">
+            <input type="checkbox" id="Wasser-Natur" data-price="1.20">
+            <label for="Wasser-Natur">Wasser-Natur(€1,20)</label>
+            <input type="number" id="menge-Wasser-Natur" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="wasserContainer">
+            <input type="checkbox" id="Volvic-Wasser" data-price="1.40">
+            <label for="Volvic-Wasser">Volvic-Wasser(€1,40)</label>
+            <input type="number" id="menge-Volvic-Wasser" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="wasserContainer">
+            <input type="checkbox" id="Glas-Wasser" data-price="1.20">
+            <label for="Glas-Wasser">Glas-Wasser(€1,20)</label>
+            <input type="number" id="menge-Glas-Wasser" min="1" max="20" placeholder="Menge">
+            </div>
+          </fieldset>
+        
+          <fieldset class="fieldsetAlkohol">
+            <p class="title-fieldset">Alkohol <img src="Bilder/Alkoho.png" id="pic-alk"></p>
+            <div class="alkContainer">
+            <input type="checkbox" id="Wein" data-price="4.80">
+            <label for="Wein">Wein(€4,80)</label>
+            <input type="number" id="menge-Wein" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="alkContainer">
+            <input type="checkbox" id="Bier" data-price="1.70">
+            <label for="Bier">Bier(€1,70)</label>
+            <input type="number" id="menge-Bier" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="alkContainer">
+            <input type="checkbox" id="Radler" data-price="1.50">
+            <label for="Radler">Radler(€1,50)</label>
+            <input type="number" id="menge-Radler" min="1" max="20" placeholder="Menge">  
+            </div>
+            <div class="alkContainer">
+            <input type="checkbox" id="Whiskey" data-price="6.70">
+            <label for="Whiskey">Whiskey(€6,70)</label>
+            <input type="number" id="menge-Whiskey" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="alkContainer">
+            <input type="checkbox" id="Vodka" data-price="7.40">
+            <label for="Vodka">Vodka(€7,40)</label>
+            <input type="number" id="menge-Vodka" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="alkContainer">
+            <input type="checkbox" id="Rum" data-price="7.50">
+            <label for="Rum">Rum(€7,50)</label>
+            <input type="number" id="menge-Rum" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="alkContainer">
+            <input type="checkbox" id="Schweizer-Wein" data-price="8.50">
+            <label for="Schweizer-Wein">Schweizer Wein(€8,50)</label>
+            <input type="number" id="menge-Schweizer-Wein" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="alkContainer">
+            <input type="checkbox" id="Scotch" data-price="7.0">
+            <label for="Scotch">Scotch(€7,50)</label>
+            <input type="number" id="menge-Scotch" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="alkContainer">
+            <input type="checkbox" id="Jägermeister" data-price="6.50">
+            <label for="Jägermeister">Jägermeister(€6,50)</label>
+            <input type="number" id="menge-Jägermeister" min="1" max="20" placeholder="Menge">
+            </div>
+            <div class="alkContainer">
+            <input type="checkbox" id="Hugo" data-price="5.40">
+            <label for="Hugo">Hugo(€5,80)</label>
+            <input type="number" id="menge-Hugo" min="1" max="20" placeholder="Menge">
+            </div>
+          </fieldset>
+        </div>
+        <div id="Auswählen">
+          <input type="checkbox" id="Auswählen-box"><span>Alles auswählen</span>
+        </div>
+          <div id="Sonderwünsche"><p>Sonderwünsche bitte hier eingeben.</p><textarea ></textarea></div>
+          <p id="gesamt-preis">Gesamtpreis: <b>0,00€</b></p>
+          <h3>Alles geprüft? Fast fertig!</h3>
+          <p>Bitte überprüfe noch einmal deine Auswahl und stelle sicher, dass alles korrekt ist. Falls du etwas ändern möchtest, kannst du die Checkboxen oder Mengenangaben einfach anpassen.
+            Wir freuen uns darauf, deine Bestellung schnellstmöglich zu bearbeiten und zu dir zu liefern! 🍹</p>
+            <div id="Button-div"><button type="submit" id="orderButton">Kostenpflichtig bestellen</button></div>
+          <h3>Noch unsicher?</h3>
+          <p>Kein Problem! Du kannst deine Auswahl jederzeit ändern, bevor du die Bestellung abschickst. Wir möchten sicherstellen, dass du genau das bekommst, was du dir wünschst.
+            Schau dir auch gerne noch einmal die Kategorien oben an, falls du etwas übersehen hast.</p>
+            <div id="p">
+              <img src="Bilder/bild3.jpg.avif">
+              <img src="Bilder/bild4.jpg.avif">
+            </div>
+            <h3>Folge uns auf Social Media!</h3>
+            <p>Bleib immer auf dem Laufenden: Exklusive Angebote, neue Produkte und spannende Einblicke hinter die Kulissen – das alles findest du auf unseren Kanälen. Jetzt abonnieren und nichts verpassen! 🎉</p>
+            <div id="social-media">
+              <span>Follow us!</span>
+              <a href="https://www.instagram.com" ><i class='bx bxl-instagram'></i></a>
+              <a href="https://www.tiktok.com" ><i class='bx bxl-tiktok' ></i></a>
+              <a href=" https://www.facebook.com" ><i class='bx bxl-facebook' ></i></a>
+              <a href=" https://www.twitter.com" ><i class='bx bxl-twitter' ></i></a>
+      </div>
+      <div id="footer">
+        <span>&copy; 2025 ANDREI | Alle Rechte vorbehalten. </span>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
