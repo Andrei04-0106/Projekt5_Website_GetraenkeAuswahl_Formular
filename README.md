@@ -1,4 +1,4 @@
-# Mein erstes HTML- und CSS-Projekt
+#HTML- und CSS-Projekt
 
 Dieses Repository enthält eine Website für Getränke Bestellungen. Das Projekt dient dazu, meine Grundlagen in HTML, CSS und Javascript zu üben.
 
