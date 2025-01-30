@@ -1,4 +1,4 @@
-#HTML- und CSS-Projekt
+#Getränke Website
 
 Dieses Repository enthält eine Website für Getränke Bestellungen. Das Projekt dient dazu, meine Grundlagen in HTML, CSS und Javascript zu üben.
 
